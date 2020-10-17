@@ -1,0 +1,56 @@
+body {
+    background-color: #463058;
+}
+
+
+#name {
+    
+    text-align: center;
+    
+}
+
+.nav {
+    float: right;
+}
+
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px 3px lightblue;
+}
+
+img {
+    margin: 5;
+    
+    
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    
+}
+
+.homework-link {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #b19a78;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+}
+
+
+.footermsg {
+    font-size: 10pt;
+    color: black;
+    text-align: center;
+}
