@@ -11,6 +11,7 @@ function Portfolio(){
        <div>
            
            <Container>
+               <br/>
                <Row>
                    <Col size = "md-8">
                    <h3>Portfolio</h3>
