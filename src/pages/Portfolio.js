@@ -20,7 +20,7 @@ function Portfolio(){
                <hr/>
                <Row>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Papyromancy.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Papyromancy.png"} 
                     alt ="papyromancy_project" 
                     deployed = "https://dylandewey.github.io/Papyromancy/"
                     linkone = "Papyromancy"
@@ -28,7 +28,7 @@ function Portfolio(){
                     linktwo = "Papyromancy Repository" />
                    </Col>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Exodus.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Exodus.png"} 
                     alt ="exodus" 
                     deployed = "http://exodus-escape.herokuapp.com/"
                     linkone = "Exodus"
@@ -39,7 +39,7 @@ function Portfolio(){
                <hr/>
                <Row>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Weather_Dashboard.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Weather_Dashboard.png"} 
                     alt ="weather-dashboard" 
                     deployed = "https://admjeffery.github.io/Weather_Dashboard/"
                     linkone = "Weather Dashboard"
@@ -47,7 +47,7 @@ function Portfolio(){
                     linktwo = "Weather Dashboard Repository" />
                    </Col>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Scheduler.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Scheduler.png"} 
                     alt ="work-scheduler" 
                     deployed = "https://admjeffery.github.io/Work_Day_Scheduler/"
                     linkone = "Work Scheduler"
@@ -58,7 +58,7 @@ function Portfolio(){
                <hr/>
                <Row>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Burger-Logger.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Burger-Logger.png"}  
                     alt ="burger-logger" 
                     deployed = "https://hidden-bastion-85662.herokuapp.com/"
                     linkone = "Burger Logger"
@@ -66,7 +66,7 @@ function Portfolio(){
                     linktwo = "Burger Logger Repository" />
                    </Col>
                    <Col size = "md-6">
-                    <Project src = "./assets/images/Password.png" 
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Password.png"}  
                     alt ="password-generator" 
                     deployed = "https://admjeffery.github.io/Random_Password_Generator/"
                     linkone = "Password Generator"

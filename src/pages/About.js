@@ -18,7 +18,7 @@ function About(){
                 </Row>
                 <Row>
                     <Col size = "md-12" >
-                       <img size = "m-1" src = "../../public/assets/images/Family_Picture.jpg" alt = "MyMug" width= "200" height="200"/>
+                       <img size = "m-1" src = {process.env.PUBLIC_URL +"/assets/images/Family_Picture.jpg"} alt = "MyMug" width= "300" height="200"/>
                        <p>Hello! I'm currently a freelance writer living in Provo, UT, with my wife and daughter. I graduated with a Bachelor's of Arts in English from Utah Valley University. Someday, I hope to be an author, but for now, I'm learning to code. </p>
                         <p>I'm learning to become a programmer in order to switch careers and make a better life for me and my family. My interests include learning more about WWI history, reading, writing fiction, and gaming with friends.</p>
                     </Col>
