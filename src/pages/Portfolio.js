@@ -13,8 +13,8 @@ function Portfolio(){
            <Container>
                <br/>
                <Row>
-                   <Col size = "md-8">
-                   <h3>Portfolio</h3>
+                   <Col size = "md-12">
+                   <h3 text-align = "center">Portfolio</h3>
                    </Col>
                </Row>
                <hr/>
@@ -72,6 +72,25 @@ function Portfolio(){
                     linkone = "Password Generator"
                     repo = "https://github.com/AdmJeffery/Random_Password_Generator"
                     linktwo = "Password Generator Repository" />
+                   </Col>
+               </Row>
+               <hr/>
+               <Row>
+                   <Col size = "md-6">
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Tracker.png"}  
+                    alt ="Tracker" 
+                    deployed = "https://aqueous-badlands-09216.herokuapp.com/"
+                    linkone = "PWA Budget Tracker"
+                    repo = "https://github.com/AdmJeffery/PWA-Budget-Tracker"
+                    linktwo = "Budget Tracker Repository" />
+                   </Col>
+                   <Col size = "md-6">
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Fitness-Tracker.png"}  
+                    alt ="password-generator" 
+                    deployed = "https://polar-brushlands-06617.herokuapp.com/?id=5f6d3929ba72df0017e6c1cf"
+                    linkone = "Workout Tracker"
+                    repo = "https://github.com/AdmJeffery/Workout-Tracker"
+                    linktwo = "Workout Tracker Repository" />
                    </Col>
                </Row>
            </Container>
