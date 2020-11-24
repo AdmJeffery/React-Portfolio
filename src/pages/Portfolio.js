@@ -47,12 +47,12 @@ function Portfolio(){
                     linktwo = "Weather Dashboard Repository" />
                    </Col>
                    <Col size = "md-6">
-                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Scheduler.png"} 
-                    alt ="work-scheduler" 
-                    deployed = "https://admjeffery.github.io/Work_Day_Scheduler/"
-                    linkone = "Work Scheduler"
-                    repo = "https://github.com/AdmJeffery/Work_Day_Scheduler"
-                    linktwo = "Scheduler Repository" />
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/TangibleCreativity.png"} 
+                    alt ="tangible-creativity" 
+                    deployed = "https://salty-falls-58858.herokuapp.com/"
+                    linkone = "Tangible Creativity Deployed Site"
+                    repo = "https://github.com/AdmJeffery/Tangible-Creativity-Prototype"
+                    linktwo = "Tangible Creativity Prototype" />
                    </Col>
                </Row>
                <hr/>
@@ -91,6 +91,17 @@ function Portfolio(){
                     linkone = "Workout Tracker"
                     repo = "https://github.com/AdmJeffery/Workout-Tracker"
                     linktwo = "Workout Tracker Repository" />
+                   </Col>
+               </Row>
+               <hr/>
+               <Row>
+                    <Col size = "md-6">
+                    <Project src = {process.env.PUBLIC_URL +"/assets/images/Scheduler.png"} 
+                    alt ="work-scheduler" 
+                    deployed = "https://admjeffery.github.io/Work_Day_Scheduler/"
+                    linkone = "Work Scheduler"
+                    repo = "https://github.com/AdmJeffery/Work_Day_Scheduler"
+                    linktwo = "Scheduler Repository" />
                    </Col>
                </Row>
            </Container>
